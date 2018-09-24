@@ -16,7 +16,7 @@ public class AppSecurityConfig  extends WebSecurityConfigurerAdapter{
  static	Logger logger =LoggerFactory.getLogger(AppSecurityConfig.class);
 	public void configure(AuthenticationManagerBuilder auth) throws Exception {
 		
-		auth.inMemoryAuthentication().withUser("avinash").password("123456678").roles("USER");
+		auth.inMemoryAuthentication().withUser("avinash").password("secret").roles("USER");
 		
 	}
 	
