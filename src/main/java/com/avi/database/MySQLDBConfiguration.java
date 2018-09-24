@@ -42,7 +42,7 @@ public class MySQLDBConfiguration {
         LOGGER.info("Loading MYSQL entities");
         return builder.dataSource(dataSource)
                       .packages("com.avi.model.mysql")
-				      .persistenceUnit("MY_SQL_ADAPTOR")
+				      .persistenceUnit("MY_SQL")
                       .build();
 	}
 
