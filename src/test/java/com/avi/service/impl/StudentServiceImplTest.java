@@ -39,7 +39,7 @@ public class StudentServiceImplTest {
 	@Test
 	public void testLoadAssetCollection() {
 		
-		UserServiceImpl =Mockito.mock(UserServiceImpl.class);
+		//UserServiceImpl =Mockito.mock(UserServiceImpl.class);
 		UserServiceImpl.deleteAllUsers();	 
 	    verify(UserServiceImpl,times(1)).deleteAllUsers();	
 	}
