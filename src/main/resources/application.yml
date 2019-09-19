@@ -1,10 +1,10 @@
 server:
-  port: 9091
+  port: 9090
 
 eureka:
   instance:
-    leaseRenewalIntervalInSeconds: 4
-    leaseExpirationDurationInSeconds: 5
+    leaseRenewalIntervalInSeconds: 5
+    leaseExpirationDurationInSeconds: 6
     prefer-ip-address: true
   client:
     serviceUrl:
